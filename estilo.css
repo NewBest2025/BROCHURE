@@ -549,7 +549,12 @@ a{
         top: 75px;
         width: 100%;
     }
-
+    .contacto h2{
+        font-size: 38px;
+        font-family: 'Righteous';
+        text-align: center;
+        padding: 20px 0;
+    }
     nav.responsive ul{
         display: block !important;
     }
@@ -578,7 +583,7 @@ a{
         padding: 20px 0;
     }
     .contacto h2{
-        font-size: 38px;
+        font-size: 35px;
         font-family: 'Righteous';
         text-align: center;
         padding: 20px 0;
