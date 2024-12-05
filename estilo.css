@@ -150,11 +150,17 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col .contenedor-intereses{
+.sobremi .contenido-seccion .fila {
+    display: flex;
+    justify-content: center;
+}
+.sobremi .contenido-seccion .fila .contenedor-intereses {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px; /* Ajusta este valor según tus necesidades */
 }
-.sobremi .fila .col .contenedor-intereses .interes{
+.sobremi .fila .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: var(--primary);
@@ -166,11 +172,11 @@ html{
     justify-content: center;
     transition: .3s;
     color: var(--secondary)
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}.sobremi .fila .contenedor-intereses .interes:hover{
     background-color: var(--tertiary);
     color: var(--quinary);
 }
-.sobremi .fila .col .contenedor-intereses .interes i{
+.sobremi .fila .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
